@@ -1,0 +1,43 @@
+h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+p{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: justify;
+    text-align: center;
+}
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d7f36d;
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 15px;
+    background-color: rgb(153, 255, 0);
+    border-radius: 20px;
+    padding: 10px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 5px solid rgba(0, 166, 0, 0.838);
+    width:450px;
+    height: 450px;
+    border-radius: 10px;
+    background-color: yellowgreen;
+    color: white ;
+    padding: 20px;
+    box-sizing: border-box;
+}
